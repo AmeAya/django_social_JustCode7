@@ -1,0 +1,23 @@
+1) pip install pipenv
+   Устанавливаем pipenv
+2) pipenv install django
+   Устанавливаем библиотеку django в pipenv, если он есть. Иначе, создает новую
+3) pipenv shell
+   Открываем терминал виртуальной машины
+4) django-admin startproject core .
+   Создать ядро Django. Точка в конце необходима чтобы не создавать лишнюю новую папку
+5) python manage.py runserver
+   Запускаем сервер (ctrl+c, cmd+c команда для выключения сервера)
+6) python manage.py makemigrations
+   Проверяет есть ли не мигрированные таблицы в БД
+7) python manage.py migrate
+   Синхрнизируется с БД (Провести миграцию)
+8) python manage.py createsuperuser
+   Создать супер юзера(Админстратора)
+9) python startapp <app_name>
+   Создаем приложение под именем <app_name>
+
+fields:
+VARCHAR(50) => models.CharField(max_length=50)
+TEXT => models.TextField()
+TIMESTAMP => models.DateTimeField()
