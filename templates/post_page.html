@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Django Project</title>
+</head>
+<body>
+    {% for post in Posts %}
+        <h1>{{ post.title }}</h1>
+        <p>{{ post.author.username }}</p>
+        <p>{{ post.body }}</p>
+    {% endfor %}
+</body>
+</html>

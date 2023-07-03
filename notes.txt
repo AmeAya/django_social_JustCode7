@@ -21,3 +21,7 @@ fields:
 VARCHAR(50) => models.CharField(max_length=50)
 TEXT => models.TextField()
 TIMESTAMP => models.DateTimeField()
+
+
+{% %} - Скобки в html для использования pythona: for, if, while, ...
+{{  }} - Скобки в html для выгрузки переменных
