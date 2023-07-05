@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Post Detail</title>
+</head>
+<body>
+    <a href="{% url 'posts_list' %}">Show All Posts</a>
+    <h1>{{ Post.title }}</h1>
+    <p>{{ Post.author }}</p>
+    <p>{{ Post.body }}</p>
+</body>
+</html>
