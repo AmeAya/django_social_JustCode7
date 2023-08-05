@@ -14,7 +14,7 @@
    Синхрнизируется с БД (Провести миграцию)
 8) python manage.py createsuperuser
    Создать супер юзера(Админстратора)
-9) python startapp <app_name>
+9) python manage.py startapp <app_name>
    Создаем приложение под именем <app_name>
 
 fields:
